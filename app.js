@@ -21,7 +21,6 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/verify', (req, res) => {
-    console.log("hello");
     client
         .verify
         .services(config.serviceId)
